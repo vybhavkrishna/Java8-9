@@ -1,3 +1,6 @@
 Restrictions with annotations:
     No inheritance in annotations.
-    
+    Method declarations in an annotation type cannot specify any parameters.
+    Method declarations cannot have throws clause.
+
+Annotations can have default values for its elements, but they must be type compatible & compile-time constants.

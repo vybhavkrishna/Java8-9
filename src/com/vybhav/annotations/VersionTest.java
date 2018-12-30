@@ -17,7 +17,7 @@ public class VersionTest {
 	@Version(major = 1, minor = 1)
 	private int value;
 
-	@Version(major = 1, minor = 1)
+	@DefaultVersion(major = 1) // minor is 0 here, default value...
 	public int getValue() {
 		return value;
 	}
