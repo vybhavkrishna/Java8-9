@@ -1,0 +1,3 @@
+Restrictions with annotations:
+    No inheritance in annotations.
+    
