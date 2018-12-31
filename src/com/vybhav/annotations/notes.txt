@@ -4,3 +4,7 @@ Restrictions with annotations:
     Method declarations cannot have throws clause.
 
 Annotations can have default values for its elements, but they must be type compatible & compile-time constants.
+
+You cannot use a null reference as a value for an element in an annotation.
+Note that it is allowed to use an empty string for the String type element and empty array for an array type element.
+
