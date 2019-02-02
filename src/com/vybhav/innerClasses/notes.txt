@@ -3,3 +3,7 @@ Types of Inner Classes:
     Local ICs
     Anonymous ICs
     
+To use a local inner class outside its enclosing block, the local inner class must do one or both of the following:
+    Implement a public interface
+    Inherit from another public class and override some of its superclass methods
+    
